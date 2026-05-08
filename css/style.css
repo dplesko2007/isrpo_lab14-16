@@ -1,0 +1,115 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333333;
+}
+ 
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 30px 0 8px;
+}
+ 
+.page-subtitle {
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.25s ease, transform 0.25s ease,
+                box-shadow 0.25s ease;
+    cursor: pointer;
+}
+ 
+.btn-primary {
+    background: #00BCD4;
+    color: #FFFFFF;
+}
+.btn-primary:hover {
+    background: #0097A7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,188,212,.40);
+}
+ 
+.btn-outline {
+    background: transparent;
+    color: #00BCD4;
+    border: 2px solid #00BCD4;
+}
+.btn-outline:hover {
+    background: #00BCD4;
+    color: #FFFFFF;
+}
+ 
+.btn-full { width: 100%; text-align: center; }
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ 
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+ 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #00BCD4;
+}
+.logo_icon { font-size: 1.6rem; }
+ 
+.nav_list {
+    display: flex;
+    gap: 8px;
+}
+ 
+.nav_link {
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #333333;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+.nav_link:hover {
+    background: #F5F7FA;
+    color: #00BCD4;
+}
+.nav_link-active {
+    background: #00BCD4;
+    color: #FFFFFF !important;
+}
+ 
+.header_icons {
+    display: flex;
+    gap: 12px;
+}
+.icon-btn {
+    font-size: 1.3rem;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background 0.25s ease;
+}
+.icon-btn:hover { background: #F5F7FA; }
