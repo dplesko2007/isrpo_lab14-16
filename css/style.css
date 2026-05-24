@@ -113,3 +113,55 @@
     transition: background 0.25s ease;
 }
 .icon-btn:hover { background: #F5F7FA; }
+.hero {
+    background: linear-gradient(135deg, #00BCD4 0%, #0097A7 60%, #006064 100%);
+    color: #FFFFFF;
+    padding: 100px 0 80px;
+    text-align: center;
+}
+.hero_title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.hero_subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 36px;
+    opacity: .9;
+}
+.popular {
+    padding: 80px 0;
+    background: #FFFFFF;
+}
+.products-grid--3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.section-btn-wrap {
+    text-align: center;
+}
+.advantages {
+    padding: 80px 0;
+    background: #F5F7FA;
+}
+.advantages_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.advantage-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0,.10);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.advantage-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,.16);
+}
+.advantage-card_icon { font-size: 2.8rem; margin-bottom: 12px; }
+.advantage-card_title { font-weight: 700; margin-bottom: 8px; }
