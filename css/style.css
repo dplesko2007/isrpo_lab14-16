@@ -165,3 +165,89 @@
 }
 .advantage-card_icon { font-size: 2.8rem; margin-bottom: 12px; }
 .advantage-card_title { font-weight: 700; margin-bottom: 8px; }
+.catalog-section {
+    padding: 40px 0 80px;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.product-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.16);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+ 
+.product-card_img-wrap {
+    position: relative;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.product-card_img-placeholder {
+    font-size: 5rem;
+}
+ 
+.product-card_body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+ 
+.product-card_title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+ 
+.product-card_desc {
+    font-size: .875rem;
+    color: #6B7280;
+    flex: 1;
+}
+ 
+.product-card_rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.stars { color: #F59E0B; font-size: 1rem; }
+.rating-count { font-size: .8rem; color: #6B7280; }
+ 
+.product-card_price-block {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.price-old {
+    font-size: .85rem;
+    color: #6B7280;
+    text-decoration: line-through;
+}
+.price-current {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #333333;
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: .75rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.badge-sale { background: #FF5722; }
+.badge-new  { background: #4CAF50; }
