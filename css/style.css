@@ -296,3 +296,30 @@
 }
 .why-card_icon  { font-size: 2.8rem; margin-bottom: 12px; }
 .why-card_title { font-weight: 700; margin-bottom: 8px; }
+@media (max-width: 1199px) {
+    .products-grid,
+    .products-grid--3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .advantages_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .team_grid     { grid-template-columns: repeat(2, 1fr); }
+    .why-us_grid   { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid     { grid-template-columns: repeat(2, 1fr); }
+    .hero_title    { font-size: 2.8rem; }
+}
+@media (max-width: 767px) {
+    .header_inner { flex-wrap: wrap; height: auto; padding: 12px 0; gap: 12px; }
+    .nav_list     { gap: 4px; }
+    .nav_link     { padding: 6px 12px; font-size: .9rem; }
+    .hero          { padding: 70px 0 60px; }
+    .hero_title   { font-size: 2.2rem; }
+    .section-title { font-size: 1.6rem; }
+    .products-grid,
+    .products-grid--3 { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .advantages_grid { grid-template-columns: repeat(2, 1fr); }
+    .team_grid       { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; }
+    .why-us_grid     { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid       { grid-template-columns: repeat(2, 1fr); }
+}
